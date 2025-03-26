@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main(void){
   char name[16] = "Ivirton Hilario";
   printf("%s\n", name);
   system("pause");
