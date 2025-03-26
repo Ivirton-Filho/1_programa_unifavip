@@ -2,11 +2,17 @@
 #include <stdlib.h>
 
 int main(){
-   double num1 = 65.67;
-   double num2 = 48.56;
-   double num3 = 24.35;
+   double num1  ;
+   printf("Insira o numero 1:\n ");
+   scanf("%lf", &num1);
+   double num2  ;
+   printf("Insira o numero 2:\n ");
+   scanf("%lf", &num2);
+   double num3  ;
+   printf("Insira o numero 3:\n ");
+   scanf("%lf", &num3);
    double result = num1 + num2 + num3;
-   printf("%f", result);
+   printf("A soma dos numeros é %g\n", result);
     system("pause");
     
     return 0;
